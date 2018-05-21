@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reading List Homework</title>
+<script src="js/app.js"></script>
+  </head>
+  <body>
+
+    <h2>Title</h2>
+    <form id="input-form">
+    <input id="title" type ="text" required />
+    <label id="title-input-description">Please enter title.</label>
+
+    <h2>Author</h2>
+    <input id="author" type ="text" required />
+    <label id="author-input-description">Please enter author.</label>
+
+    <h2>Category</h2>
+    <p>Please select an option below:</p>
+
+    <input type ="radio" name="category" value="book" required>Book</>
+    <label id="category-selected"></label>
+    <input type ="radio" name="category" value="article">Article</>
+    <label id="category-selected"></label>
+    <input type ="radio" name="category" value="blog-post">Blog Post</>
+    <label id="category-selected"></label>
+
+    <h2>Select</h2>
+    <select id="select" required>
+      <option disabled selected>Choose an option</option>
+      <option value ="Science Fiction">Science Fiction</option>
+      <option value ="Fantasy">Fantasy</option>
+      <option value ="Adventure">Adventure</option>
+    </select>
+    <p id="select-result">No choice has been made.</p>
+
+    <button type="submit" name="button">Submit!</button>
+</form>
+  <hr>
+
+  <h2>The title is:</h2>
+  <label id="title-input-result">Title entered will go here.</label>
+
+  <h2>The author is:</h2>
+  <label id="author-input-result">Author entered will go here.</label>
+
+  <h2>The category selected is:</h2>
+  <label id="category-selected-result">Category selected will go here.</label>
+
+  <h2>The genre selected is:</h2>
+  <label id="genre-selected-result">Genre selected will go here.</label>
+
+
+
+
+
+  </body>
+</html>
